@@ -1,5 +1,4 @@
-<img src="https://github.com/vinceliuice/Qogir-kde/blob/master/images/logo.png" alt="Logo" align="right" /> Vimix KDE Theme
-======
+## Vimix KDE Theme
 
 Vimix kde is a flat Design theme for KDE Plasma desktop.
 
@@ -37,7 +36,7 @@ GNU GPL v3
 
 ## preview
 
-![1](https://github.com/vinceliuice/Qogir-kde/blob/master/images/preview1.png?raw=true)
-![2](https://github.com/vinceliuice/Qogir-kde/blob/master/images/preview2.png?raw=true)
-![3](https://github.com/vinceliuice/Qogir-kde/blob/master/images/preview3.png?raw=true)
-
+![1](https://github.com/vinceliuice/Qogir-kde/blob/master/plasma/look-and-feel/com.github.vinceliuice.Vimix/contents/previews/fullscreenpreview.jpg?raw=true)
+![2](https://github.com/vinceliuice/Qogir-kde/blob/master/plasma/look-and-feel/com.github.vinceliuice.Vimix-Doder/contents/previews/fullscreenpreview.jpg?raw=true)
+![3](https://github.com/vinceliuice/Qogir-kde/blob/master/plasma/look-and-feel/com.github.vinceliuice.Vimix-Beryl/contents/previews/fullscreenpreview.jpg?raw=true)
+![4](https://github.com/vinceliuice/Qogir-kde/blob/master/plasma/look-and-feel/com.github.vinceliuice.Vimix-Ruby/contents/previews/fullscreenpreview.jpg?raw=true)
