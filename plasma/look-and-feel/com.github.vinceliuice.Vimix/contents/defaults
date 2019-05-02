@@ -1,0 +1,17 @@
+[kdeglobals][KDE]
+widgetStyle=kvantum
+
+[kdeglobals][General]
+ColorScheme=Vimix
+
+[kdeglobals][Icons]
+Theme=Tela-black
+
+[plasmarc][Theme]
+name=Vimix
+
+[kwinrc][org.kde.kdecoration2]
+theme=__aurorae__svg__Vimix
+
+[kcminputrc][Mouse]
+cursorTheme=breeze_cursors
