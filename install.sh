@@ -33,6 +33,7 @@ install() {
   cp -ur ${SRC_DIR}/color-schemes/${name}${theme}${color}.colors                     ${SCHEMES_DIR}
   cp -ur ${SRC_DIR}/Kvantum/${name}${theme}                                          ${KVANTUM_DIR}
   cp -ur ${SRC_DIR}/plasma/desktoptheme/${name}${theme}                              ${PLASMA_DIR}
+  cp -ur ${SRC_DIR}/plasma/desktoptheme/icons                                        ${PLASMA_THEME}
   cp -ur ${SRC_DIR}/color-schemes/${name}${theme}-Dark.colors                        ${PLASMA_THEME}/colors
   cp -ur ${SRC_DIR}/plasma/look-and-feel/com.github.vinceliuice.${name}${theme}      ${LOOKFEEL_DIR}
 }
