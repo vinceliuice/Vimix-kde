@@ -43,9 +43,9 @@
      inkscape:snap-smooth-nodes="true"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:zoom="30.208"
-     inkscape:cx="247.13594"
-     inkscape:cy="934.70978"
+     inkscape:zoom="10.680141"
+     inkscape:cx="338.02109"
+     inkscape:cy="873.5924"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -6409,7 +6409,7 @@
        inkscape:connector-curvature="0"
        id="path2130"
        d="m 322.5,129.99994 h 32 V 129 h -32 z"
-       style="fill:#dcdedf;stroke-width:1;opacity:0.5" />
+       style="fill:#a6abae;stroke-width:1;opacity:0.5;fill-opacity:1" />
   </g>
   <use
      x="0"
