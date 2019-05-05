@@ -2,6 +2,9 @@
 
 Vimix kde is a flat Design theme for KDE Plasma desktop.
 
+This theme is based on :
+Alexey Varfolomeev - https://github.com/PapirusDevelopmentTeam/materia-kde
+
 In this repository you'll find:
 
 - Aurorae Themes
