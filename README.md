@@ -25,7 +25,7 @@ In this repository you'll find:
 
   Run `kvantummanager` to choose and apply **Vimix** (or any other Vimix) theme.
 
-- Install [Tela icon theme](https://github.com/vinceliuice/Tela-icon-theme) for a more consistent and beautiful experience.
+- Install [Vimix icon theme](https://github.com/vinceliuice/vimix-icon-theme) for a more consistent and beautiful experience.
 
 ## Donate
 
