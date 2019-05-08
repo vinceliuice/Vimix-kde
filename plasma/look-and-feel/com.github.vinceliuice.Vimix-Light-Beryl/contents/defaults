@@ -1,0 +1,17 @@
+[kdeglobals][KDE]
+widgetStyle=kvantum
+
+[kdeglobals][General]
+ColorScheme=Vimix-Light-Beryl
+
+[kdeglobals][Icons]
+Theme=Vimix-Beryl
+
+[plasmarc][Theme]
+name=Vimix-Beryl
+
+[kwinrc][org.kde.kdecoration2]
+theme=__aurorae__svg__Vimix-Light
+
+[kcminputrc][Mouse]
+cursorTheme=breeze_cursors

@@ -1,0 +1,17 @@
+[kdeglobals][KDE]
+widgetStyle=kvantum
+
+[kdeglobals][General]
+ColorScheme=Vimix-Light-Ruby
+
+[kdeglobals][Icons]
+Theme=Vimix-Ruby
+
+[plasmarc][Theme]
+name=Vimix-Ruby
+
+[kwinrc][org.kde.kdecoration2]
+theme=__aurorae__svg__Vimix-Light
+
+[kcminputrc][Mouse]
+cursorTheme=breeze_cursors

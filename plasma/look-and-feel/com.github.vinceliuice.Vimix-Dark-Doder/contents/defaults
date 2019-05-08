@@ -1,0 +1,17 @@
+[kdeglobals][KDE]
+widgetStyle=kvantum
+
+[kdeglobals][General]
+ColorScheme=Vimix-Doder
+
+[kdeglobals][Icons]
+Theme=Vimix-Doder
+
+[plasmarc][Theme]
+name=Vimix-Doder
+
+[kwinrc][org.kde.kdecoration2]
+theme=__aurorae__svg__Vimix-Doder
+
+[kcminputrc][Mouse]
+cursorTheme=breeze_cursors

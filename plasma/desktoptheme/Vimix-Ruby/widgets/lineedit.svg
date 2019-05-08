@@ -1,6 +1,62 @@
-<svg width="17" height="57" version="1.0" xmlns="http://www.w3.org/2000/svg">
- <defs>
-  <style id="current-color-scheme" type="text/css">.ColorScheme-Text {
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="17"
+   height="57"
+   version="1.0"
+   id="svg102"
+   sodipodi:docname="lineedit.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <metadata
+     id="metadata106">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#323232"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="706"
+     id="namedview104"
+     showgrid="true"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-nodes="true"
+     inkscape:bbox-paths="true"
+     inkscape:zoom="2.8284271"
+     inkscape:cx="93.88309"
+     inkscape:cy="-27.598096"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg102">
+    <inkscape:grid
+       type="xygrid"
+       id="grid913" />
+  </sodipodi:namedview>
+  <defs
+     id="defs3">
+    <style
+       id="current-color-scheme"
+       type="text/css">.ColorScheme-Text {
         color:#31363b;
       }
       .ColorScheme-Background{
@@ -30,99 +86,399 @@
       .ColorScheme-ButtonFocus{
         color:#3daee9;
       }</style>
- </defs>
- <g id="base-topleft" transform="translate(756.31 -818.58)">
-  <path transform="matrix(-.5 0 0 -.5 -639.81 700.08)" d="m162-159a2 2 0 0 1-2 2v-2z" color="#eff0f1" fill="#303030"/>
- </g>
- <g id="base-bottomleft" transform="translate(756.31 -814.58)">
-  <path d="m-720.81 810.59-7e-5 1.9959 1.0001 9e-5v-1.996z" color="#eff0f1" fill="#fff" opacity=".1"/>
-  <path d="m-720.81 810.59-7e-5 0.99592 1.0001 4e-5v-0.99596z" color="#eff0f1" fill="#303030"/>
- </g>
- <g id="base-left" transform="matrix(1 0 0 1.6667 756.31 -1355)">
-  <rect x="-720.81" y="789.58" width="1" height="21" color="#eff0f1" fill="#303030"/>
- </g>
- <g id="base-top" transform="matrix(1.9091 0 0 1 1410.7 -818.58)">
-  <rect x="-719.81" y="778.58" width="55" height="1" color="#eff0f1" fill="#303030"/>
- </g>
- <g id="base-bottom" transform="matrix(1.9091 0 0 1 1410.7 -814.58)">
-  <rect x="-719.81" y="810.58" width="55" height="1.996" color="#eff0f1" fill="#fff" opacity=".1"/>
-  <rect x="-719.81" y="810.58" width="55" height="1.004" color="#eff0f1" fill="#303030"/>
- </g>
- <g id="base-topright" transform="translate(806.31 -818.58)">
-  <path transform="matrix(.5 0 0 -.5 -744.81 700.08)" d="m162-159a2 2 0 0 1-2 2v-2z" color="#eff0f1" fill="#303030"/>
- </g>
- <g id="base-bottomright" transform="translate(806.31 -814.58)">
-  <path d="m-663.81 810.59-4e-5 1.9959-0.99996 9e-5v-1.996z" color="#eff0f1" fill="#fff" opacity=".1"/>
-  <path d="m-663.81 810.59-4e-5 0.99592-0.99996 4e-5v-0.99596z" color="#eff0f1" fill="#303030"/>
- </g>
- <g id="base-right" transform="matrix(1 0 0 1.6667 806.31 -1355)">
-  <rect x="-664.81" y="789.58" width="1" height="21" color="#eff0f1" fill="#303030"/>
- </g>
- <g id="base-center" transform="translate(-73.5 9)">
-  <rect x="110" y="-48" width="105" height="35" fill="#303030"/>
- </g>
- <g id="hover-topleft" transform="translate(756.31 -762.58)">
-  <path transform="matrix(-.5 0 0 -.5 -639.81 700.08)" d="m162-159a2 2 0 0 1-2 2v-2z" fill="#303030"/>
- </g>
- <g id="hover-bottomleft" transform="translate(756.31 -758.58)">
-  <path d="m-720.81 810.59c-7e-5 -2e-3 -7e-5 1.998-7e-5 1.998h1.0001v-1.998z" fill="#f0544c"/>
- </g>
- <g id="hover-left" transform="matrix(1 0 0 1.6667 756.31 -1299)">
-  <rect x="-720.81" y="789.58" width="1" height="21" fill="#303030"/>
- </g>
- <g id="hover-top" transform="matrix(1.9091 0 0 1 1410.7 -762.58)">
-  <rect x="-719.81" y="778.58" width="55" height="1" fill="#303030"/>
- </g>
- <g id="hover-bottom" transform="matrix(1.9091 0 0 1 1410.7 -758.58)">
-  <path d="m-719.81 810.58h55v2h-55z" fill="#f0544c"/>
- </g>
- <g id="hover-topright" transform="translate(806.31 -762.58)">
-  <path transform="matrix(.5 0 0 -.5 -744.81 700.08)" d="m162-159a2 2 0 0 1-2 2v-2z" fill="#303030"/>
- </g>
- <g id="hover-bottomright" transform="translate(806.31 -758.58)">
-  <path d="m-663.81 810.59c-4e-5 -2e-3 -4e-5 1.998-4e-5 1.998h-1.0001v-1.998z" fill="#f0544c"/>
- </g>
- <g id="hover-right" transform="matrix(1 0 0 1.6667 806.31 -1299)">
-  <rect x="-664.81" y="789.58" width="1" height="21" fill="#303030"/>
- </g>
- <rect id="hover-center" x="36.5" y="17" width="105" height="35" fill="#303030"/>
- <g id="focus-topleft" transform="translate(756.31 -714.58)">
-  <path transform="matrix(-.5 0 0 -.5 -639.81 700.08)" d="m162-159a2 2 0 0 1-2 2v-2z" fill="#303030"/>
- </g>
- <g id="focus-bottomleft" transform="translate(756.31 -710.58)">
-  <path d="m-720.81 810.59c-3e-3 -9e-3 -7e-5 1.998-7e-5 1.998h1.0001v-1.998z" fill="#f0544c"/>
- </g>
- <g id="focus-left" transform="matrix(1 0 0 1.6667 756.31 -1251)">
-  <rect x="-720.81" y="789.58" width="1" height="21" fill="#303030"/>
- </g>
- <g id="focus-top" transform="matrix(1.9091 0 0 1 1410.7 -714.58)">
-  <rect x="-719.81" y="778.58" width="55" height="1" fill="#303030"/>
- </g>
- <g id="focus-bottom" transform="matrix(1.9091 0 0 1 1410.7 -710.58)">
-  <path d="m-719.81 810.58h55v1.998h-55z" fill="#f0544c"/>
- </g>
- <g id="focus-topright" transform="translate(806.31 -714.58)">
-  <path transform="matrix(.5 0 0 -.5 -744.81 700.08)" d="m162-159a2 2 0 0 1-2 2v-2z" fill="#303030"/>
- </g>
- <g id="focus-bottomright" transform="translate(806.31 -710.58)">
-  <path d="m-663.81 810.59-4e-5 1.998h-0.99996v-1.998z" fill="#f0544c"/>
- </g>
- <g id="focus-right" transform="matrix(1 0 0 1.6667 806.31 -1251)">
-  <rect x="-664.81" y="789.58" width="1" height="21" fill="#303030"/>
- </g>
- <rect id="focus-center" x="36.5" y="65" width="105" height="35" fill="#303030"/>
- <g fill="#4e9a06">
-  <rect id="hover-hint-bottom-margin" x="87.5" y="52" width="2" height="2"/>
-  <rect id="hover-hint-top-margin" x="88" y="16" width="2" height="1"/>
-  <rect id="hover-hint-left-margin" transform="rotate(-90)" x="-35" y="35.5" width="2" height="1"/>
-  <rect id="hover-hint-right-margin" transform="rotate(-90)" x="-35" y="141.5" width="2" height="1"/>
-  <rect id="focus-hint-bottom-margin" x="87.5" y="100" width="2" height="2"/>
-  <rect id="focus-hint-top-margin" x="87.5" y="64" width="2" height="1"/>
-  <rect id="focus-hint-left-margin" transform="rotate(-90)" x="-82.9" y="35.4" width="2" height="1"/>
-  <rect id="focus-hint-right-margin" transform="rotate(-90)" x="-83" y="141.5" width="2" height="1"/>
-  <rect id="base-hint-top-margin" x="88" y="-40" width="2" height="1"/>
-  <rect id="base-hint-right-margin" transform="rotate(-90)" x="21" y="141.5" width="2" height="1"/>
-  <rect id="base-hint-left-margin" transform="rotate(-90)" x="21" y="35.5" width="2" height="1"/>
-  <rect id="base-hint-bottom-margin" x="89.5" y="-4" width="2" height="2"/>
- </g>
+  </defs>
+  <g
+     id="hover-topleft"
+     transform="translate(755.81,-762.58)"
+     style="opacity:0">
+    <path
+       transform="matrix(-0.5,0,0,-0.5,-639.81,700.08)"
+       d="m 162,-159 a 2,2 0 0 1 -2,2 v -2 z"
+       style="fill:#303030"
+       id="path5"
+       inkscape:connector-curvature="0" />
+  </g>
+  <g
+     id="hover-bottomleft"
+     transform="matrix(1,0,0,1.0010002,755.8207,-759.40079)"
+     style="stroke-width:0.99950027">
+    <path
+       d="m -720.81,810.59 c -7e-5,-0.002 -7e-5,1.998 -7e-5,1.998 h 1.0001 v -1.998 z"
+       id="path8"
+       inkscape:connector-curvature="0"
+       style="fill:#f0544c;stroke-width:0.99950027" />
+  </g>
+  <g
+     id="hover-left"
+     transform="matrix(1,0,0,1.6667,755.81,-1299)"
+     style="opacity:0">
+    <rect
+       x="-720.81"
+       y="789.58002"
+       width="1"
+       height="21"
+       style="fill:#303030"
+       id="rect11" />
+  </g>
+  <g
+     id="hover-top"
+     transform="matrix(1.9091,0,0,1,1410.2,-762.58)"
+     style="opacity:0">
+    <rect
+       x="-719.81"
+       y="778.58002"
+       width="55"
+       height="1"
+       style="fill:#303030"
+       id="rect14" />
+  </g>
+  <g
+     id="hover-bottom"
+     transform="matrix(1.9090909,0,0,1,1410.1828,-758.58)"
+     style="stroke-width:1.00000238">
+    <path
+       d="m -719.81,810.58 h 55 v 2 h -55 z"
+       id="path17"
+       inkscape:connector-curvature="0"
+       style="fill:#f0544c;stroke-width:1.00000238" />
+  </g>
+  <g
+     id="hover-topright"
+     transform="translate(805.81,-762.58)"
+     style="opacity:0">
+    <path
+       transform="matrix(0.5,0,0,-0.5,-744.81,700.08)"
+       d="m 162,-159 a 2,2 0 0 1 -2,2 v -2 z"
+       style="fill:#303030"
+       id="path20"
+       inkscape:connector-curvature="0" />
+  </g>
+  <g
+     id="hover-bottomright"
+     transform="matrix(1,0,0,1.0010002,805.81014,-759.40079)"
+     style="stroke-width:0.99950027">
+    <path
+       d="m -663.81,810.59 c -4e-5,-0.002 -4e-5,1.998 -4e-5,1.998 h -1.0001 v -1.998 z"
+       id="path23"
+       inkscape:connector-curvature="0"
+       style="fill:#f0544c;stroke-width:0.99950027" />
+  </g>
+  <g
+     id="hover-right"
+     transform="matrix(1,0,0,1.6667,805.81,-1299)"
+     style="opacity:0">
+    <rect
+       x="-664.81"
+       y="789.58002"
+       width="1"
+       height="21"
+       style="fill:#303030"
+       id="rect26" />
+  </g>
+  <rect
+     id="hover-center"
+     x="35.999996"
+     y="17"
+     width="105"
+     height="35"
+     style="opacity:0;fill:#303030" />
+  <g
+     id="focus-topleft"
+     transform="translate(756.79877,-714.578)"
+     style="opacity:0">
+    <path
+       transform="matrix(-0.5,0,0,-0.5,-639.81,700.08)"
+       d="m 162,-159 a 2,2 0 0 1 -2,2 v -2 z"
+       style="fill:#303030"
+       id="path30"
+       inkscape:connector-curvature="0" />
+  </g>
+  <g
+     id="focus-bottomleft"
+     transform="matrix(0.99862018,0,0,1.0009859,755.81548,-711.38912)"
+     style="stroke-width:1.00019777">
+    <path
+       d="m -720.81,810.59 c -0.003,-0.009 -7e-5,1.998 -7e-5,1.998 h 1.0001 v -1.998 z"
+       id="path33"
+       inkscape:connector-curvature="0"
+       style="fill:#f0544c;stroke-width:1.00019777" />
+  </g>
+  <g
+     id="focus-left"
+     transform="matrix(1,0,0,1.6667,756.79877,-1250.998)"
+     style="opacity:0">
+    <rect
+       x="-720.81"
+       y="789.58002"
+       width="1"
+       height="21"
+       style="fill:#303030"
+       id="rect36" />
+  </g>
+  <g
+     id="focus-top"
+     transform="matrix(1.9091,0,0,1,1411.1888,-714.578)"
+     style="opacity:0">
+    <rect
+       x="-719.81"
+       y="778.58002"
+       width="55"
+       height="1"
+       style="fill:#303030"
+       id="rect39" />
+  </g>
+  <g
+     id="focus-bottom"
+     transform="matrix(1.9090909,0,0,1.001001,1411.1823,-711.39139)"
+     style="stroke-width:0.99950224">
+    <path
+       d="m -719.81,810.58 h 55 v 1.998 h -55 z"
+       id="path42"
+       inkscape:connector-curvature="0"
+       style="fill:#f0544c;stroke-width:0.99950224" />
+  </g>
+  <g
+     id="focus-topright"
+     transform="translate(806.79877,-714.578)"
+     style="opacity:0">
+    <path
+       transform="matrix(0.5,0,0,-0.5,-744.81,700.08)"
+       d="m 162,-159 a 2,2 0 0 1 -2,2 v -2 z"
+       style="fill:#303030"
+       id="path45"
+       inkscape:connector-curvature="0" />
+  </g>
+  <g
+     id="focus-bottomright"
+     transform="matrix(1,0,0,1.001001,806.81,-711.4014)"
+     style="stroke-width:0.99949986">
+    <path
+       d="m -663.81,810.59 -4e-5,1.998 H -664.81 v -1.998 z"
+       id="path48"
+       inkscape:connector-curvature="0"
+       style="fill:#f0544c;stroke-width:0.99949986" />
+  </g>
+  <g
+     id="focus-right"
+     transform="matrix(1,0,0,1.6667,806.79877,-1250.998)"
+     style="opacity:0">
+    <rect
+       x="-664.81"
+       y="789.58002"
+       width="1"
+       height="21"
+       style="fill:#303030"
+       id="rect51" />
+  </g>
+  <rect
+     id="focus-center"
+     x="36.98877"
+     y="65.001999"
+     width="105"
+     height="35"
+     style="opacity:0;fill:#303030" />
+  <g
+     fill="#4e9a06"
+     id="g67">
+    <rect
+       id="hover-hint-bottom-margin"
+       x="87.5"
+       y="52"
+       width="2"
+       height="2" />
+    <rect
+       id="hover-hint-top-margin"
+       x="88"
+       y="16"
+       width="2"
+       height="1" />
+    <rect
+       id="hover-hint-left-margin"
+       transform="rotate(-90)"
+       x="-35"
+       y="35.5"
+       width="2"
+       height="1" />
+    <rect
+       id="hover-hint-right-margin"
+       transform="rotate(-90)"
+       x="-35"
+       y="141.5"
+       width="2"
+       height="1" />
+    <rect
+       id="focus-hint-bottom-margin"
+       x="87.5"
+       y="100"
+       width="2"
+       height="2" />
+    <rect
+       id="focus-hint-top-margin"
+       x="87.5"
+       y="64"
+       width="2"
+       height="1" />
+    <rect
+       id="focus-hint-left-margin"
+       transform="rotate(-90)"
+       x="-82.9"
+       y="35.4"
+       width="2"
+       height="1" />
+    <rect
+       id="focus-hint-right-margin"
+       transform="rotate(-90)"
+       x="-83"
+       y="141.5"
+       width="2"
+       height="1" />
+    <rect
+       id="base-hint-top-margin"
+       x="88"
+       y="-40"
+       width="2"
+       height="1" />
+    <rect
+       id="base-hint-right-margin"
+       transform="rotate(-90)"
+       x="21"
+       y="141.5"
+       width="2"
+       height="1" />
+    <rect
+       id="base-hint-left-margin"
+       transform="rotate(-90)"
+       x="21"
+       y="35.5"
+       width="2"
+       height="1" />
+    <rect
+       id="base-hint-bottom-margin"
+       x="89.5"
+       y="-4"
+       width="2"
+       height="2" />
+  </g>
+  <g
+     id="base-topleft"
+     transform="translate(755.81 -818.57)"
+     opacity="0">
+    <path
+       transform="matrix(-.5 0 0 -.5 -639.81 700.08)"
+       d="m162-159a2 2 0 0 1-2 2v-2z"
+       color="#eff0f1"
+       fill="#303030"
+       id="path69" />
+  </g>
+  <g
+     id="base-bottomleft"
+     transform="matrix(0.96145,0,0,1.002,728.0613,-816.21109)"
+     style="fill:#ffffff;stroke-width:1.01880002">
+    <path
+       d="m -720.81,810.59 -7e-5,1.9959 1.0001,9e-5 v -1.996 z"
+       id="path72"
+       inkscape:connector-curvature="0"
+       style="color:#eff0f1;opacity:0" />
+    <path
+       d="m -720.85,811.59 -7e-5,0.99592 1.0402,4e-5 V 811.59 Z"
+       id="path74"
+       inkscape:connector-curvature="0"
+       style="color:#eff0f1;opacity:0.25;fill:#f0544c;fill-opacity:1" />
+  </g>
+  <g
+     id="base-left"
+     transform="matrix(1 0 0 1.6667 755.81 -1355)"
+     opacity="0">
+    <rect
+       x="-720.81"
+       y="789.58"
+       width="1"
+       height="21"
+       color="#eff0f1"
+       fill="#303030"
+       id="rect77" />
+  </g>
+  <g
+     id="base-top"
+     transform="matrix(1.9091 0 0 1 1410.2 -818.57)"
+     opacity="0">
+    <rect
+       x="-719.81"
+       y="778.58"
+       width="55"
+       height="1"
+       color="#eff0f1"
+       fill="#303030"
+       id="rect80" />
+  </g>
+  <g
+     id="base-bottom"
+     transform="matrix(1.9084,0,0,0.99900101,1409.7236,-813.77027)"
+     style="fill:#ffffff;stroke-width:1.00069821">
+    <rect
+       x="-719.81"
+       y="810.58002"
+       width="55"
+       height="1.9960001"
+       id="rect83"
+       style="color:#eff0f1;opacity:0;stroke-width:1.00069821" />
+    <rect
+       x="-719.83002"
+       y="811.58099"
+       width="55.02"
+       height="1.001"
+       id="rect85"
+       style="color:#eff0f1;opacity:0.25;stroke-width:1.00069821;fill:#f0544c;fill-opacity:1" />
+  </g>
+  <g
+     id="base-topright"
+     transform="translate(805.81 -818.57)"
+     opacity="0">
+    <path
+       transform="matrix(.5 0 0 -.5 -744.81 700.08)"
+       d="m162-159a2 2 0 0 1-2 2v-2z"
+       color="#eff0f1"
+       fill="#303030"
+       id="path88" />
+  </g>
+  <g
+     id="base-bottomright"
+     transform="matrix(0.96154,0,0,1.000991,780.28,-815.39008)"
+     style="fill:#ffffff;stroke-width:1.01931334">
+    <path
+       d="m -663.81,810.59 -4e-5,1.9959 -0.99996,9e-5 v -1.996 z"
+       id="path91"
+       inkscape:connector-curvature="0"
+       style="color:#eff0f1;opacity:0;stroke-width:1.01982701" />
+    <path
+       d="m -663.81014,811.5858 -4e-5,0.99897 -1.04,4e-5 v -0.99901 z"
+       id="path93"
+       inkscape:connector-curvature="0"
+       style="color:#eff0f1;opacity:0.25;stroke-width:1.01982701;fill:#f0544c;fill-opacity:1" />
+  </g>
+  <g
+     id="base-right"
+     transform="matrix(1 0 0 1.6667 805.81 -1355)"
+     opacity="0">
+    <rect
+       x="-664.81"
+       y="789.58"
+       width="1"
+       height="21"
+       color="#eff0f1"
+       fill="#303030"
+       id="rect96" />
+  </g>
+  <g
+     id="base-center"
+     transform="translate(-74 9.0063)"
+     opacity="0">
+    <rect
+       x="110"
+       y="-48"
+       width="105"
+       height="35"
+       fill="#303030"
+       id="rect99" />
+  </g>
 </svg>

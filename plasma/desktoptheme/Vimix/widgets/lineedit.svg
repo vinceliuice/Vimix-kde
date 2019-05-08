@@ -12,7 +12,7 @@
    version="1.0"
    id="svg102"
    sodipodi:docname="lineedit.svg"
-   inkscape:version="0.92.4 5da689c313, 2019-01-14">
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
   <metadata
      id="metadata106">
     <rdf:RDF>
@@ -26,7 +26,7 @@
     </rdf:RDF>
   </metadata>
   <sodipodi:namedview
-     pagecolor="#4a4a4a"
+     pagecolor="#3d3d3d"
      bordercolor="#666666"
      borderopacity="1"
      objecttolerance="10"
@@ -35,16 +35,24 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1366"
-     inkscape:window-height="711"
+     inkscape:window-height="706"
      id="namedview104"
-     showgrid="false"
-     inkscape:zoom="1.4638351"
-     inkscape:cx="135.0523"
-     inkscape:cy="107.15273"
+     showgrid="true"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-paths="true"
+     inkscape:bbox-nodes="true"
+     inkscape:snap-nodes="false"
+     inkscape:zoom="2.8284271"
+     inkscape:cx="98.168772"
+     inkscape:cy="-4.1617259"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg102" />
+     inkscape:current-layer="svg102">
+    <inkscape:grid
+       type="xygrid"
+       id="grid913" />
+  </sodipodi:namedview>
   <defs
      id="defs3">
     <style
@@ -82,292 +90,317 @@
   </defs>
   <g
      id="base-topleft"
-     transform="translate(756.31 -818.58)">
+     transform="translate(755.81,-818.57371)"
+     style="opacity:0">
     <path
-       transform="matrix(-.5 0 0 -.5 -639.81 700.08)"
-       d="m162-159a2 2 0 0 1-2 2v-2z"
+       transform="matrix(-0.5,0,0,-0.5,-639.81,700.08)"
+       d="m 162,-159 a 2,2 0 0 1 -2,2 v -2 z"
+       style="color:#eff0f1;fill:#303030"
        id="path5"
-       fill="#303030"
-       color="#eff0f1" />
+       inkscape:connector-curvature="0" />
   </g>
   <g
      id="base-bottomleft"
-     transform="translate(756.31 -814.58)">
+     transform="matrix(0.96144601,0,0,1.002004,728.05836,-816.21643)"
+     style="fill:#ffffff;stroke-width:1.01883256">
     <path
-       d="m-720.81 810.59-7e-5 1.9959 1.0001 9e-5v-1.996z"
+       d="m -720.81,810.59 -7e-5,1.9959 1.0001,9e-5 v -1.996 z"
        id="path8"
-       fill="#fff"
-       color="#eff0f1"
-       opacity=".1"
-       style="opacity:0.25" />
+       inkscape:connector-curvature="0"
+       style="color:#eff0f1;opacity:0;stroke-width:1.01883256" />
     <path
-       d="m-720.81 810.59-7e-5 0.99592 1.0001 4e-5v-0.99596z"
+       d="m -720.85003,811.59 -7e-5,0.99592 1.04017,4e-5 V 811.59 Z"
        id="path10"
-       fill="#303030"
-       color="#eff0f1" />
+       inkscape:connector-curvature="0"
+       style="color:#eff0f1;opacity:0.25;stroke-width:1.01883256" />
   </g>
   <g
      id="base-left"
-     transform="matrix(1 0 0 1.6667 756.31 -1355)">
+     transform="matrix(1,0,0,1.6667,755.81,-1354.9937)"
+     style="opacity:0">
     <rect
        x="-720.81"
-       y="789.58"
+       y="789.58002"
        width="1"
        height="21"
-       id="rect13"
-       fill="#303030"
-       color="#eff0f1" />
+       style="color:#eff0f1;fill:#303030"
+       id="rect13" />
   </g>
   <g
      id="base-top"
-     transform="matrix(1.9091 0 0 1 1410.7 -818.58)">
+     transform="matrix(1.9091,0,0,1,1410.2,-818.57371)"
+     style="opacity:0">
     <rect
        x="-719.81"
-       y="778.58"
+       y="778.58002"
        width="55"
        height="1"
-       id="rect16"
-       fill="#303030"
-       color="#eff0f1" />
+       style="color:#eff0f1;fill:#303030"
+       id="rect16" />
   </g>
   <g
      id="base-bottom"
-     transform="matrix(1.9091 0 0 1 1410.7 -814.58)">
+     transform="matrix(1.9083963,0,0,0.99800402,1409.7209,-812.96214)"
+     style="fill:#ffffff;stroke-width:1.00118399">
     <rect
        x="-719.81"
-       y="810.58"
+       y="810.58002"
        width="55"
-       height="1.996"
+       height="1.9960001"
        id="rect19"
-       fill="#fff"
-       color="#eff0f1"
-       opacity=".1"
-       style="opacity:0.25" />
+       style="color:#eff0f1;opacity:0;stroke-width:1.00118399" />
     <rect
-       x="-719.81"
-       y="810.58"
-       width="55"
-       height="1.004"
+       x="-719.83002"
+       y="811.58203"
+       width="55.020042"
+       height="1.002"
        id="rect21"
-       fill="#303030"
-       color="#eff0f1" />
+       style="color:#eff0f1;opacity:0.25;stroke-width:1.00118399" />
   </g>
   <g
      id="base-topright"
-     transform="translate(806.31 -818.58)">
+     transform="translate(805.81,-818.57371)"
+     style="opacity:0">
     <path
-       transform="matrix(.5 0 0 -.5 -744.81 700.08)"
-       d="m162-159a2 2 0 0 1-2 2v-2z"
+       transform="matrix(0.5,0,0,-0.5,-744.81,700.08)"
+       d="m 162,-159 a 2,2 0 0 1 -2,2 v -2 z"
+       style="color:#eff0f1;fill:#303030"
        id="path24"
-       fill="#303030"
-       color="#eff0f1" />
+       inkscape:connector-curvature="0" />
   </g>
   <g
      id="base-bottomright"
-     transform="translate(806.31 -814.58)">
+     transform="matrix(0.96153846,0,0,1.002004,780.27885,-816.21441)"
+     style="fill:#ffffff;stroke-width:1.01878357">
     <path
-       d="m-663.81 810.59-4e-5 1.9959-0.99996 9e-5v-1.996z"
+       d="m -663.81,810.59 -4e-5,1.9959 -0.99996,9e-5 v -1.996 z"
        id="path27"
-       fill="#fff"
-       color="#eff0f1"
-       opacity=".1"
-       style="opacity:0.25" />
+       inkscape:connector-curvature="0"
+       style="color:#eff0f1;opacity:0;stroke-width:1.01878357" />
     <path
-       d="m-663.81 810.59-4e-5 0.99592-0.99996 4e-5v-0.99596z"
+       d="m -663.81002,811.58798 -4e-5,0.99797 -1.03999,4e-5 v -0.99801 z"
        id="path29"
-       fill="#303030"
-       color="#eff0f1" />
+       inkscape:connector-curvature="0"
+       style="color:#eff0f1;opacity:0.25;stroke-width:1.01878357" />
   </g>
   <g
      id="base-right"
-     transform="matrix(1 0 0 1.6667 806.31 -1355)">
+     transform="matrix(1,0,0,1.6666667,805.81,-1354.9667)"
+     style="opacity:0;stroke-width:1.00001001">
     <rect
        x="-664.81"
-       y="789.58"
+       y="789.58002"
        width="1"
        height="21"
-       id="rect32"
-       fill="#303030"
-       color="#eff0f1" />
+       style="color:#eff0f1;fill:#303030;stroke-width:1.00001001"
+       id="rect32" />
   </g>
   <g
      id="base-center"
-     transform="translate(-73.5 9)">
+     transform="translate(-74.000002,9.0062855)"
+     style="opacity:0">
     <rect
        x="110"
        y="-48"
        width="105"
        height="35"
-       id="rect35"
-       fill="#303030" />
+       style="fill:#303030"
+       id="rect35" />
   </g>
   <g
      id="hover-topleft"
-     transform="translate(756.31 -762.58)">
+     transform="translate(755.81,-762.57371)"
+     style="opacity:0">
     <path
-       transform="matrix(-.5 0 0 -.5 -639.81 700.08)"
-       d="m162-159a2 2 0 0 1-2 2v-2z"
+       transform="matrix(-0.5,0,0,-0.5,-639.81,700.08)"
+       d="m 162,-159 a 2,2 0 0 1 -2,2 v -2 z"
+       style="fill:#303030"
        id="path38"
-       fill="#303030" />
+       inkscape:connector-curvature="0" />
   </g>
   <g
      id="hover-bottomleft"
-     transform="translate(756.31 -758.58)">
+     transform="matrix(1,0,0,1.0010002,755.81007,-759.40075)"
+     style="stroke-width:0.99950027">
     <path
-       d="m-720.81 810.59c-7e-5 -2e-3 -7e-5 1.998-7e-5 1.998h1.0001v-1.998z"
+       d="m -720.81,810.59 c -7e-5,-0.002 -7e-5,1.998 -7e-5,1.998 h 1.0001 v -1.998 z"
        id="path41"
-       fill="#ffffff" />
+       inkscape:connector-curvature="0"
+       style="fill:#ffffff;stroke-width:0.99950027" />
   </g>
   <g
      id="hover-left"
-     transform="matrix(1 0 0 1.6667 756.31 -1299)">
+     transform="matrix(1,0,0,1.6667,755.81,-1298.9937)"
+     style="opacity:0">
     <rect
        x="-720.81"
-       y="789.58"
+       y="789.58002"
        width="1"
        height="21"
-       id="rect44"
-       fill="#303030" />
+       style="fill:#303030"
+       id="rect44" />
   </g>
   <g
      id="hover-top"
-     transform="matrix(1.9091 0 0 1 1410.7 -762.58)">
+     transform="matrix(1.9091,0,0,1,1410.2,-762.57371)"
+     style="opacity:0">
     <rect
        x="-719.81"
-       y="778.58"
+       y="778.58002"
        width="55"
        height="1"
-       id="rect47"
-       fill="#303030" />
+       style="fill:#303030"
+       id="rect47" />
   </g>
   <g
      id="hover-bottom"
-     transform="matrix(1.9091 0 0 1 1410.7 -758.58)">
+     transform="matrix(1.9090909,0,0,1,1410.1827,-758.58)"
+     style="stroke-width:1.00000238">
     <path
-       d="m-719.81 810.58h55v2h-55z"
+       d="m -719.81,810.58 h 55 v 2 h -55 z"
        id="path50"
-       fill="#ffffff" />
+       inkscape:connector-curvature="0"
+       style="fill:#ffffff;stroke-width:1.00000238" />
   </g>
   <g
      id="hover-topright"
-     transform="translate(806.31 -762.58)">
+     transform="translate(805.81,-762.57371)"
+     style="opacity:0">
     <path
-       transform="matrix(.5 0 0 -.5 -744.81 700.08)"
-       d="m162-159a2 2 0 0 1-2 2v-2z"
+       transform="matrix(0.5,0,0,-0.5,-744.81,700.08)"
+       d="m 162,-159 a 2,2 0 0 1 -2,2 v -2 z"
+       style="fill:#303030"
        id="path53"
-       fill="#303030" />
+       inkscape:connector-curvature="0" />
   </g>
   <g
      id="hover-bottomright"
-     transform="translate(806.31 -758.58)">
+     transform="matrix(1,0,0,1.0010002,805.81,-759.40079)"
+     style="stroke-width:0.99950027">
     <path
-       d="m-663.81 810.59c-4e-5 -2e-3 -4e-5 1.998-4e-5 1.998h-1.0001v-1.998z"
+       d="m -663.81,810.59 c -4e-5,-0.002 -4e-5,1.998 -4e-5,1.998 h -1.0001 v -1.998 z"
        id="path56"
-       fill="#ffffff" />
+       inkscape:connector-curvature="0"
+       style="fill:#ffffff;stroke-width:0.99950027" />
   </g>
   <g
      id="hover-right"
-     transform="matrix(1 0 0 1.6667 806.31 -1299)">
+     transform="matrix(1,0,0,1.6667,805.81,-1298.9937)"
+     style="opacity:0">
     <rect
        x="-664.81"
-       y="789.58"
+       y="789.58002"
        width="1"
        height="21"
-       id="rect59"
-       fill="#303030" />
+       style="fill:#303030"
+       id="rect59" />
   </g>
   <rect
      id="hover-center"
-     x="36.5"
-     y="17"
+     x="36"
+     y="17.00629"
      width="105"
      height="35"
-     fill="#303030" />
+     style="opacity:0;fill:#303030" />
   <g
      id="focus-topleft"
-     transform="translate(756.31 -714.58)">
+     transform="translate(755.85007,-714.58)"
+     style="opacity:0">
     <path
-       transform="matrix(-.5 0 0 -.5 -639.81 700.08)"
-       d="m162-159a2 2 0 0 1-2 2v-2z"
+       transform="matrix(-0.5,0,0,-0.5,-639.81,700.08)"
+       d="m 162,-159 a 2,2 0 0 1 -2,2 v -2 z"
+       style="fill:#303030"
        id="path63"
-       fill="#303030" />
+       inkscape:connector-curvature="0" />
   </g>
   <g
      id="focus-bottomleft"
-     transform="translate(756.31 -710.58)">
+     transform="matrix(0.99862018,0,0,1.0009859,754.81676,-711.38913)"
+     style="stroke-width:1.00019777">
     <path
-       d="m-720.81 810.59c-3e-3 -9e-3 -7e-5 1.998-7e-5 1.998h1.0001v-1.998z"
+       d="m -720.81,810.59 c -0.003,-0.009 -7e-5,1.998 -7e-5,1.998 h 1.0001 v -1.998 z"
        id="path66"
-       fill="#ffffff" />
+       inkscape:connector-curvature="0"
+       style="fill:#ffffff;stroke-width:1.00019777" />
   </g>
   <g
      id="focus-left"
-     transform="matrix(1 0 0 1.6667 756.31 -1251)">
+     transform="matrix(1,0,0,1.6667,755.85007,-1251)"
+     style="opacity:0">
     <rect
        x="-720.81"
-       y="789.58"
+       y="789.58002"
        width="1"
        height="21"
-       id="rect69"
-       fill="#303030" />
+       style="fill:#303030"
+       id="rect69" />
   </g>
   <g
      id="focus-top"
-     transform="matrix(1.9091 0 0 1 1410.7 -714.58)">
+     transform="matrix(1.9091,0,0,1,1410.2401,-714.58)"
+     style="opacity:0">
     <rect
        x="-719.81"
-       y="778.58"
+       y="778.58002"
        width="55"
        height="1"
-       id="rect72"
-       fill="#303030" />
+       style="fill:#303030"
+       id="rect72" />
   </g>
   <g
      id="focus-bottom"
-     transform="matrix(1.9091 0 0 1 1410.7 -710.58)">
+     transform="matrix(1.9090909,0,0,1.001001,1410.1828,-711.39139)"
+     style="stroke-width:0.99950224">
     <path
-       d="m-719.81 810.58h55v1.998h-55z"
+       d="m -719.81,810.58 h 55 v 1.998 h -55 z"
        id="path75"
-       fill="#ffffff" />
+       inkscape:connector-curvature="0"
+       style="fill:#ffffff;stroke-width:0.99950224" />
   </g>
   <g
      id="focus-topright"
-     transform="translate(806.31 -714.58)">
+     transform="translate(805.85007,-714.58)"
+     style="opacity:0">
     <path
-       transform="matrix(.5 0 0 -.5 -744.81 700.08)"
-       d="m162-159a2 2 0 0 1-2 2v-2z"
+       transform="matrix(0.5,0,0,-0.5,-744.81,700.08)"
+       d="m 162,-159 a 2,2 0 0 1 -2,2 v -2 z"
+       style="fill:#303030"
        id="path78"
-       fill="#303030" />
+       inkscape:connector-curvature="0" />
   </g>
   <g
      id="focus-bottomright"
-     transform="translate(806.31 -710.58)">
+     transform="matrix(1,0,0,1.001001,805.81,-711.4014)"
+     style="stroke-width:0.99949986">
     <path
-       d="m-663.81 810.59-4e-5 1.998h-0.99996v-1.998z"
+       d="m -663.81,810.59 -4e-5,1.998 H -664.81 v -1.998 z"
        id="path81"
-       fill="#ffffff" />
+       inkscape:connector-curvature="0"
+       style="fill:#ffffff;stroke-width:0.99949986" />
   </g>
   <g
      id="focus-right"
-     transform="matrix(1 0 0 1.6667 806.31 -1251)">
+     transform="matrix(1,0,0,1.6667,805.85007,-1251)"
+     style="opacity:0">
     <rect
        x="-664.81"
-       y="789.58"
+       y="789.58002"
        width="1"
        height="21"
-       id="rect84"
-       fill="#303030" />
+       style="fill:#303030"
+       id="rect84" />
   </g>
   <rect
      id="focus-center"
-     x="36.5"
+     x="36.04007"
      y="65"
      width="105"
      height="35"
-     fill="#303030" />
+     style="opacity:0;fill:#303030" />
   <g
      id="g100"
-     fill="#4e9a06">
+     transform="translate(-0.45993)"
+     style="fill:#4e9a06">
     <rect
        id="hover-hint-bottom-margin"
        x="87.5"
@@ -409,8 +442,8 @@
     <rect
        id="focus-hint-left-margin"
        transform="rotate(-90)"
-       x="-82.9"
-       y="35.4"
+       x="-82.900002"
+       y="35.400002"
        width="2"
        height="1" />
     <rect
