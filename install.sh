@@ -41,7 +41,98 @@ install() {
   cp -ur ${SRC_DIR}/plasma/desktoptheme/icons                                           ${PLASMA_THEME}
   cp -ur ${SRC_DIR}/color-schemes/${name}-Dark${theme}.colors                           ${PLASMA_THEME}/colors
   cp -ur ${SRC_DIR}/plasma/look-and-feel/com.github.vinceliuice.${name}${color}${theme} ${LOOKFEEL_DIR}
+
+  [[ ${blur} = 'true' ]] && \
+  cp -r ${SRC_DIR}/plasma/desktoptheme/${name}${theme}-Blur/*                           ${PLASMA_THEME}/
 }
+
+while [[ $# -gt 0 ]]; do
+  case "${1}" in
+    -d|--dest)
+      dest="${2}"
+      if [[ ! -d "${dest}" ]]; then
+        echo "ERROR: Destination directory does not exist."
+        exit 1
+      fi
+      shift 2
+      ;;
+    -n|--name)
+      name="${2}"
+      shift 2
+      ;;
+    -b|--blur)
+      blur='true'
+      shift 1
+      ;;
+    -t|--theme)
+      shift
+      for theme in "${@}"; do
+        case "${theme}" in
+          standard)
+            themes+=("${THEME_VARIANTS[0]}")
+            shift 1
+            ;;
+          doder)
+            themes+=("${THEME_VARIANTS[1]}")
+            shift 1
+            ;;
+          beryl)
+            themes+=("${THEME_VARIANTS[2]}")
+            shift 1
+            ;;
+          ruby)
+            themes+=("${THEME_VARIANTS[3]}")
+            shift 1
+            ;;
+          -*|--*)
+            break
+            ;;
+          *)
+            echo "ERROR: Unrecognized thin variant '$1'."
+            echo "Try '$0 --help' for more information."
+            exit 1
+            ;;
+        esac
+      done
+      ;;
+    -c|--color)
+      shift
+      for color in "${@}"; do
+        case "${color}" in
+          standard)
+            colors+=("${COLOR_VARIANTS[0]}")
+            shift 1
+            ;;
+          light)
+            colors+=("${COLOR_VARIANTS[1]}")
+            shift 1
+            ;;
+          dark)
+            colors+=("${COLOR_VARIANTS[2]}")
+            shift 1
+            ;;
+          -*|--*)
+            break
+            ;;
+          *)
+            echo "ERROR: Unrecognized color variant '$1'."
+            echo "Try '$0 --help' for more information."
+            exit 1
+            ;;
+        esac
+      done
+      ;;
+    -h|--help)
+      usage
+      exit 0
+      ;;
+    *)
+      echo "ERROR: Unrecognized installation option '$1'."
+      echo "Try '$0 --help' for more information."
+      exit 1
+      ;;
+  esac
+done
 
 echo "Installing '${name:-${THEME_NAME}} kde themes'..."
 
