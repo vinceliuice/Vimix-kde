@@ -11,6 +11,9 @@ Theme=Vimix-Ruby
 name=Vimix-Ruby
 
 [kwinrc][org.kde.kdecoration2]
+ButtonsOnLeft=
+ButtonsOnRight=IAX
+library=org.kde.kwin.aurorae
 theme=__aurorae__svg__Vimix-Light
 
 [kcminputrc][Mouse]
