@@ -21,7 +21,7 @@ IntensityEffect=0
 [Colors:Button]
 BackgroundAlternate=239,239,239
 BackgroundNormal=252,252,252
-DecorationFocus=240,84,76
+DecorationFocus=46,179,152
 DecorationHover=220,220,220
 ForegroundActive=255,128,224
 ForegroundInactive=153,153,153
@@ -33,28 +33,29 @@ ForegroundPositive=0,110,40
 ForegroundVisited=224,64,251
 
 [Colors:Complementary]
-DecorationFocus=240,84,76
-DecorationHover=90,90,90
+BackgroundAlternate=54,57,62
+DecorationFocus=46,179,152
+DecorationHover=79,83,91
 ForegroundVisited=224,64,251
 
 [Colors:Selection]
-BackgroundAlternate=255,87,81
-BackgroundNormal=240,84,76
-DecorationFocus=240,127,127
-DecorationHover=240,132,132
+BackgroundAlternate=54,213,179
+BackgroundNormal=46,179,152
+DecorationFocus=59,231,194
+DecorationHover=56,221,186
 ForegroundActive=255,128,224
 ForegroundInactive=90,220,207
-ForegroundLink=164,138,244
+ForegroundLink=66,133,244
 ForegroundNegative=156,14,14
 ForegroundNeutral=255,221,0
 ForegroundNormal=255,255,255
 ForegroundPositive=128,255,128
-ForegroundVisited=119,190,251
+ForegroundVisited=224,64,251
 
 [Colors:Tooltip]
-BackgroundAlternate=48,48,48
-BackgroundNormal=40,40,40
-DecorationFocus=240,84,76
+BackgroundAlternate=54,57,62
+BackgroundNormal=33,35,41
+DecorationFocus=46,179,152
 DecorationHover=79,83,91
 ForegroundActive=255,128,224
 ForegroundInactive=136,136,136
@@ -67,8 +68,8 @@ ForegroundVisited=224,64,251
 
 [Colors:View]
 BackgroundAlternate=245,245,245
-BackgroundNormal=249,249,249
-DecorationFocus=240,84,76
+BackgroundNormal=255,255,255
+DecorationFocus=46,179,152
 DecorationHover=220,220,220
 ForegroundActive=255,128,224
 ForegroundInactive=136,136,136
@@ -82,7 +83,7 @@ ForegroundVisited=224,64,251
 [Colors:Window]
 BackgroundAlternate=245,245,245
 BackgroundNormal=245,245,245
-DecorationFocus=240,84,76
+DecorationFocus=46,179,152
 DecorationHover=220,220,220
 ForegroundActive=255,128,224
 ForegroundInactive=153,153,153
@@ -94,8 +95,8 @@ ForegroundPositive=0,110,40
 ForegroundVisited=224,64,251
 
 [General]
-ColorScheme=Qogir
-Name=Vimix-Light-Ruby
+ColorScheme=VimixLightBeryl
+Name=VimixLightBeryl
 shadeSortColumn=true
 
 [KDE]

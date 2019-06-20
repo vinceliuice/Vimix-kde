@@ -2,7 +2,7 @@
 widgetStyle=kvantum
 
 [kdeglobals][General]
-ColorScheme=Vimix-Dark-Ruby
+ColorScheme=VimixDarkRuby
 
 [kdeglobals][Icons]
 Theme=Vimix-Ruby

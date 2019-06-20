@@ -103,8 +103,8 @@ ForegroundPositive=1,162,153
 ForegroundVisited=224,64,251
 
 [General]
-ColorScheme=Materia Dark
-Name=Vimix-Dark
+ColorScheme=VimixDark
+Name=VimixDark
 shadeSortColumn=true
 
 [KDE]

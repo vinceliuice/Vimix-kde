@@ -17,10 +17,30 @@ install() {
   local color=${2}
   local theme=${3}
 
+  if [[ ${color} != '-Light' ]]; then
+    local a_color='Light'
+  fi
+
+  if [[ ${color} != '-Dark' ]]; then
+    local a_color='Dark'
+  fi
+
+  if [[ ${theme} != '-Doder' ]]; then
+    local a_theme='Doder'
+  fi
+
+  if [[ ${theme} != '-Beryl' ]]; then
+    local a_theme='Beryl'
+  fi
+
+  if [[ ${theme} != '-Ruby' ]]; then
+    local a_theme='Ruby'
+  fi
+
   local AURORAE_THEME=${AURPRAE_DIR}/${name}${color}${theme}
   local PLASMA_THEME=${PLASMA_DIR}/${name}${theme}
   local LOOKFEEL_THEME=${LOOKFEEL_DIR}/${name}${theme}
-  local SCHEMES_THEME=${SCHEMES_DIR}/${name}${color}${theme}.colors
+  local SCHEMES_THEME=${SCHEMES_DIR}/${name}${a_color}${a_theme}.colors
   local KVANTUM_THEME=${KVANTUM_DIR}/${name}${color}${theme}
 
   [[ -d ${AURORAE_THEME} ]] && rm -rf ${AURORAE_THEME}
@@ -35,11 +55,11 @@ install() {
     cp -ur ${SRC_DIR}/aurorae/${name}-Light                                             ${AURORAE_DIR}
   fi
 
-  cp -ur ${SRC_DIR}/color-schemes/${name}${color}${theme}.colors                        ${SCHEMES_DIR}
+  cp -ur ${SRC_DIR}/color-schemes/${name}${a_color}${a_theme}.colors                    ${SCHEMES_DIR}
   cp -ur ${SRC_DIR}/Kvantum/${name}${color}${theme}                                     ${KVANTUM_DIR}
   cp -ur ${SRC_DIR}/plasma/desktoptheme/${name}${theme}                                 ${PLASMA_DIR}
   cp -ur ${SRC_DIR}/plasma/desktoptheme/icons                                           ${PLASMA_THEME}
-  cp -ur ${SRC_DIR}/color-schemes/${name}-Dark${theme}.colors                           ${PLASMA_THEME}/colors
+  cp -ur ${SRC_DIR}/color-schemes/${name}Dark${a_theme}.colors                          ${PLASMA_THEME}/colors
   cp -ur ${SRC_DIR}/plasma/look-and-feel/com.github.vinceliuice.${name}${color}${theme} ${LOOKFEEL_DIR}
 
   [[ ${blur} = 'true' ]] && \
@@ -143,5 +163,3 @@ done
 done
 
 echo "Install finished..."
-
-

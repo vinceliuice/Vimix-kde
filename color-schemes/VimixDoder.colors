@@ -95,17 +95,17 @@ ForegroundPositive=0,110,40
 ForegroundVisited=224,64,251
 
 [General]
-ColorScheme=Qogir
-Name=Vimix-Light-Doder
+ColorScheme=VimixDoder
+Name=VimixDoder
 shadeSortColumn=true
 
 [KDE]
 contrast=0
 
 [WM]
-activeBackground=238,238,238
-activeBlend=153,153,153
-activeForeground=120,120,120
-inactiveBackground=240,240,240
-inactiveBlend=221,221,221
-inactiveForeground=170,170,170
+activeBackground=54,57,62
+activeBlend=59,62,68
+activeForeground=221,221,221
+inactiveBackground=62,65,71
+inactiveBlend=67,71,77
+inactiveForeground=120,120,120
