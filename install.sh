@@ -39,7 +39,7 @@ install() {
 
   local AURORAE_THEME=${AURPRAE_DIR}/${name}${color}${theme}
   local PLASMA_THEME=${PLASMA_DIR}/${name}${theme}
-  local LOOKFEEL_THEME=${LOOKFEEL_DIR}/${name}${theme}
+  local LOOKFEEL_THEME=${LOOKFEEL_DIR}/com.github.vinceliuice.${name}${color}${theme}
   local SCHEMES_THEME=${SCHEMES_DIR}/${name}${a_color}${a_theme}.colors
   local KVANTUM_THEME=${KVANTUM_DIR}/${name}${color}${theme}
 
