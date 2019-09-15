@@ -17,23 +17,23 @@ install() {
   local color=${2}
   local theme=${3}
 
-  if [[ ${color} != '-Light' ]]; then
+  if [[ ${color} == '-Light' ]]; then
     local a_color='Light'
   fi
 
-  if [[ ${color} != '-Dark' ]]; then
+  if [[ ${color} == '-Dark' ]]; then
     local a_color='Dark'
   fi
 
-  if [[ ${theme} != '-Doder' ]]; then
+  if [[ ${theme} == '-Doder' ]]; then
     local a_theme='Doder'
   fi
 
-  if [[ ${theme} != '-Beryl' ]]; then
+  if [[ ${theme} == '-Beryl' ]]; then
     local a_theme='Beryl'
   fi
 
-  if [[ ${theme} != '-Ruby' ]]; then
+  if [[ ${theme} == '-Ruby' ]]; then
     local a_theme='Ruby'
   fi
 
