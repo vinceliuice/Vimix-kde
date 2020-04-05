@@ -10,7 +10,7 @@ KVANTUM_DIR="$HOME/.config/Kvantum"
 
 THEME_NAME=Vimix
 COLOR_VARIANTS=('' '-Light' '-Dark')
-THEME_VARIANTS=('' '-Doder' '-Beryl' '-Ruby')
+THEME_VARIANTS=('' '-Doder' '-Beryl' '-Ruby' '-Amethyst')
 
 install() {
   local name=${1}
@@ -35,6 +35,10 @@ install() {
 
   if [[ ${theme} == '-Ruby' ]]; then
     local a_theme='Ruby'
+  fi
+
+  if [[ ${theme} == '-Amethyst' ]]; then
+    local a_theme='Amethyst'
   fi
 
   local AURORAE_THEME="${AURORAE_DIR}/${name}${color}${theme}"
