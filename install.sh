@@ -108,6 +108,10 @@ while [[ $# -gt 0 ]]; do
             themes+=("${THEME_VARIANTS[3]}")
             shift 1
             ;;
+          amethyst)
+            themes+=("${THEME_VARIANTS[4]}")
+            shift 1
+            ;;
           -*|--*)
             break
             ;;

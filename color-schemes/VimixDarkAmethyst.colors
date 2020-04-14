@@ -95,8 +95,8 @@ ForegroundPositive=0,110,40
 ForegroundVisited=224,64,251
 
 [General]
-ColorScheme=VimixDarkBeryl
-Name=VimixDarkBeryl
+ColorScheme=VimixDarkAmethyst
+Name=VimixDarkAmethyst
 shadeSortColumn=true
 
 [KDE]

@@ -1,6 +1,6 @@
 [Desktop Entry]
-Name=Vimix-Beryl
-Comment=Vimix-Beryl theme for kde plasma
+Name=Vimix-Amethyst
+Comment=Vimix-Amethyst theme for kde plasma
 Encoding=UTF-8
 Keywords=Desktop;Workspace;Appearance;Look and Feel;Logout;Lock;Suspend;Shutdown;Hibernate;
 
@@ -12,7 +12,7 @@ X-KDE-PluginInfo-Author=Vince Liuice
 X-KDE-PluginInfo-Category=
 X-KDE-PluginInfo-Email=
 X-KDE-PluginInfo-License=GPL3.0
-X-KDE-PluginInfo-Name=com.github.vinceliuice.Vimix-Beryl
+X-KDE-PluginInfo-Name=com.github.vinceliuice.Vimix-Amethyst
 X-KDE-PluginInfo-Version=
 X-KDE-PluginInfo-Website=https://github.com/vinceliuice/Vimix-kde
 X-KDE-fallbackPackage=org.kde.breeze.desktop
