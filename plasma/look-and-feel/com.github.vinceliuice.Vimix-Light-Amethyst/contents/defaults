@@ -2,13 +2,13 @@
 widgetStyle=kvantum
 
 [kdeglobals][General]
-ColorScheme=VimixLightBeryl
+ColorScheme=VimixLightAmethyst
 
 [kdeglobals][Icons]
-Theme=Vimix-Beryl
+Theme=Vimix-Amethyst
 
 [plasmarc][Theme]
-name=Vimix-Beryl
+name=Vimix-Amethyst
 
 [kwinrc][org.kde.kdecoration2]
 ButtonsOnLeft=
