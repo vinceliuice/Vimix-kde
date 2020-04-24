@@ -8,6 +8,12 @@ PLASMA_DIR="$HOME/.local/share/plasma/desktoptheme"
 LOOKFEEL_DIR="$HOME/.local/share/plasma/look-and-feel"
 KVANTUM_DIR="$HOME/.config/Kvantum"
 
+[[ ! -d ${AURORAE_DIR} ]] && sudo mkdir -p ${AURORAE_DIR}
+[[ ! -d ${SCHEMES_DIR} ]] && sudo mkdir -p ${SCHEMES_DIR}
+[[ ! -d ${PLASMA_DIR} ]] && sudo mkdir -p ${PLASMA_DIR}
+[[ ! -d ${LOOKFEEL_DIR} ]] && sudo mkdir -p ${LOOKFEEL_DIR}
+[[ ! -d ${KVANTUM_DIR} ]] && sudo mkdir -p ${KVANTUM_DIR}
+
 THEME_NAME=Vimix
 COLOR_VARIANTS=('' '-Light' '-Dark')
 THEME_VARIANTS=('' '-Doder' '-Beryl' '-Ruby' '-Amethyst')
