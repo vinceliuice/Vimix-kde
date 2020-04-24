@@ -2,6 +2,18 @@
 
 SRC_DIR=$(cd $(dirname $0) && pwd)
 
+PLASMA_VERSION=$(plasmashell --version | awk '{ print $2 }')
+PLASMA_LIMIT_VERSION='5.18'
+
+# # if the plasma is 5.18.3 ou higher, the install path is set to /usr/share/color-schemes/
+if [[ $(awk 'BEGIN {print ('$PLASMA_VERSION' >= '$PLASMA_LIMIT_VERSION') ? "1" : "0"}') == '1' ]]; then
+    SCHEMES_DIR="/usr/share/color-schemes"
+# # if lower '5.18', $HOME/.local/share/color-schemes.
+elif [[ $(awk 'BEGIN {print ('$PLASMA_VERSION' <= '$PLASMA_LIMIT_VERSION') ? "1" : "0"}') == '1' ]]; then
+# # If there is a per-user path to the 'color-schemes' folder, this script MUST be updated!
+    SCHEMES_DIR="$HOME/.local/share/color-schemes"
+fi
+ 
 AURORAE_DIR="$HOME/.local/share/aurorae/themes"
 SCHEMES_DIR="$HOME/.local/share/color-schemes"
 PLASMA_DIR="$HOME/.local/share/plasma/desktoptheme"
