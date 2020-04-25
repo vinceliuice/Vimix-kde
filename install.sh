@@ -1,34 +1,42 @@
 #!/bin/bash
 
 SRC_DIR=$(cd $(dirname $0) && pwd)
+ROOT_UID=0
 
-PLASMA_VERSION=$(plasmashell --version | awk '{ print $2 }')
-PLASMA_LIMIT_VERSION='5.18'
-
-# # if the plasma is 5.18.3 ou higher, the install path is set to /usr/share/color-schemes/
-if [[ $(awk 'BEGIN {print ('$PLASMA_VERSION' >= '$PLASMA_LIMIT_VERSION') ? "1" : "0"}') == '1' ]]; then
-    SCHEMES_DIR="/usr/share/color-schemes"
-# # if lower '5.18', $HOME/.local/share/color-schemes.
-elif [[ $(awk 'BEGIN {print ('$PLASMA_VERSION' <= '$PLASMA_LIMIT_VERSION') ? "1" : "0"}') == '1' ]]; then
-# # If there is a per-user path to the 'color-schemes' folder, this script MUST be updated!
-    SCHEMES_DIR="$HOME/.local/share/color-schemes"
+# Destination directory
+if [ "$UID" -eq "$ROOT_UID" ]; then
+  AURORAE_DIR="/usr/share/aurorae/themes"
+  SCHEMES_DIR="/usr/share/color-schemes"
+  PLASMA_DIR="/usr/share/plasma/desktoptheme"
+  LOOKFEEL_DIR="/usr/share/plasma/look-and-feel"
+  KVANTUM_DIR="/usr/share/Kvantum"
+else
+  AURORAE_DIR="$HOME/.local/share/aurorae/themes"
+  SCHEMES_DIR="$HOME/.local/share/color-schemes"
+  PLASMA_DIR="$HOME/.local/share/plasma/desktoptheme"
+  LOOKFEEL_DIR="$HOME/.local/share/plasma/look-and-feel"
+  KVANTUM_DIR="$HOME/.config/Kvantum"
 fi
- 
-AURORAE_DIR="$HOME/.local/share/aurorae/themes"
-SCHEMES_DIR="$HOME/.local/share/color-schemes"
-PLASMA_DIR="$HOME/.local/share/plasma/desktoptheme"
-LOOKFEEL_DIR="$HOME/.local/share/plasma/look-and-feel"
-KVANTUM_DIR="$HOME/.config/Kvantum"
 
-[[ ! -d ${AURORAE_DIR} ]] && sudo mkdir -p ${AURORAE_DIR}
-[[ ! -d ${SCHEMES_DIR} ]] && sudo mkdir -p ${SCHEMES_DIR}
-[[ ! -d ${PLASMA_DIR} ]] && sudo mkdir -p ${PLASMA_DIR}
-[[ ! -d ${LOOKFEEL_DIR} ]] && sudo mkdir -p ${LOOKFEEL_DIR}
-[[ ! -d ${KVANTUM_DIR} ]] && sudo mkdir -p ${KVANTUM_DIR}
+[[ ! -d ${AURORAE_DIR} ]] && mkdir -p ${AURORAE_DIR}
+[[ ! -d ${SCHEMES_DIR} ]] && mkdir -p ${SCHEMES_DIR}
+[[ ! -d ${PLASMA_DIR} ]] && mkdir -p ${PLASMA_DIR}
+[[ ! -d ${LOOKFEEL_DIR} ]] && mkdir -p ${LOOKFEEL_DIR}
+[[ ! -d ${KVANTUM_DIR} ]] && mkdir -p ${KVANTUM_DIR}
 
 THEME_NAME=Vimix
 COLOR_VARIANTS=('' '-Light' '-Dark')
 THEME_VARIANTS=('' '-Doder' '-Beryl' '-Ruby' '-Amethyst')
+
+usage() {
+  printf "%s\n" "Usage: $0 [OPTIONS...]"
+  printf "\n%s\n" "OPTIONS:"
+  printf "  %-25s%s\n" "-d, --dest DIR" "Specify theme destination directory (Default: ${DEST_DIR})"
+  printf "  %-25s%s\n" "-n, --name NAME" "Specify theme name (Default: ${THEME_NAME})"
+  printf "  %-25s%s\n" "-t, --theme VARIANTS" "Specify hue theme variant(s) [standard|doder|beryl|ruby|amethyst] (Default: All variants)"
+  printf "  %-25s%s\n" "-b, --blur" "Specify blur theme variants"
+  printf "  %-25s%s\n" "-h, --help" "Show this help"
+}
 
 install() {
   local name=${1}
@@ -183,9 +191,9 @@ done
 echo "Installing '${name:-${THEME_NAME}} kde themes'..."
 
 for color in "${colors[@]:-${COLOR_VARIANTS[@]}}"; do
-for theme in "${themes[@]:-${THEME_VARIANTS[@]}}"; do
-  install "${name:-${THEME_NAME}}" "${color}" "${theme}"
-done
+  for theme in "${themes[@]:-${THEME_VARIANTS[@]}}"; do
+    install "${name:-${THEME_NAME}}" "${color}" "${theme}"
+  done
 done
 
 echo "Install finished..."
