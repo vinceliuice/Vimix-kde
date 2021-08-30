@@ -8,7 +8,7 @@ ColorScheme=VimixLightRuby
 Theme=Vimix-Ruby
 
 [plasmarc][Theme]
-name=Vimix-Ruby
+name=Vimix
 
 [kwinrc][org.kde.kdecoration2]
 ButtonsOnLeft=

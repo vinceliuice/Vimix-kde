@@ -1,5 +1,5 @@
 [kdeglobals][KDE]
-widgetStyle=kvantum
+widgetStyle=kvantum-dark
 
 [kdeglobals][General]
 ColorScheme=VimixDarkBeryl
@@ -8,7 +8,7 @@ ColorScheme=VimixDarkBeryl
 Theme=Vimix-Beryl
 
 [plasmarc][Theme]
-name=Vimix-Beryl
+name=Vimix
 
 [kwinrc][org.kde.kdecoration2]
 ButtonsOnLeft=

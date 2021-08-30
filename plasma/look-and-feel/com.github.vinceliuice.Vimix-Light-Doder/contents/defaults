@@ -8,7 +8,7 @@ ColorScheme=VimixLightDoder
 Theme=Vimix-Doder
 
 [plasmarc][Theme]
-name=Vimix-Doder
+name=Vimix
 
 [kwinrc][org.kde.kdecoration2]
 ButtonsOnLeft=

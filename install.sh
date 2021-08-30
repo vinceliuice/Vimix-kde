@@ -68,7 +68,7 @@ install() {
   fi
 
   local AURORAE_THEME="${AURORAE_DIR}/${name}${color}${theme}"
-  local PLASMA_THEME="${PLASMA_DIR}/${name}${theme}"
+  local PLASMA_THEME="${PLASMA_DIR}/${name}"
   local LOOKFEEL_THEME="${LOOKFEEL_DIR}/com.github.vinceliuice.${name}${color}${theme}"
   local SCHEMES_THEME="${SCHEMES_DIR}/${name}${a_color}${a_theme}.colors"
   local KVANTUM_THEME="${KVANTUM_DIR}/${name}${color}${theme}"
@@ -80,20 +80,15 @@ install() {
   [[ -d ${KVANTUM_THEME} ]] && rm -rf ${KVANTUM_THEME}
 
   if [[ ${color} != '-Light' ]]; then
-    cp -ur ${SRC_DIR}/aurorae/${name}${theme}                                           ${AURORAE_DIR}
+    cp -r ${SRC_DIR}/aurorae/${name}${theme}                                           ${AURORAE_DIR}
   else
-    cp -ur ${SRC_DIR}/aurorae/${name}-Light                                             ${AURORAE_DIR}
+    cp -r ${SRC_DIR}/aurorae/${name}-Light                                             ${AURORAE_DIR}
   fi
 
-  cp -ur ${SRC_DIR}/color-schemes/${name}${a_color}${a_theme}.colors                    ${SCHEMES_DIR}
-  cp -ur ${SRC_DIR}/Kvantum/${name}${color}${theme}                                     ${KVANTUM_DIR}
-  cp -ur ${SRC_DIR}/plasma/desktoptheme/${name}${theme}                                 ${PLASMA_DIR}
-  cp -ur ${SRC_DIR}/plasma/desktoptheme/icons                                           ${PLASMA_THEME}
-  cp -ur ${SRC_DIR}/color-schemes/${name}Dark${a_theme}.colors                          ${PLASMA_THEME}/colors
-  cp -ur ${SRC_DIR}/plasma/look-and-feel/com.github.vinceliuice.${name}${color}${theme} ${LOOKFEEL_DIR}
-
-  [[ ${blur} = 'true' ]] && \
-  cp -r ${SRC_DIR}/plasma/desktoptheme/${name}${theme}-Blur/*                           ${PLASMA_THEME}/
+  cp -r ${SRC_DIR}/color-schemes/${name}${a_color}${a_theme}.colors                    ${SCHEMES_DIR}
+  cp -r ${SRC_DIR}/Kvantum/${name}${color}${theme}                                     ${KVANTUM_DIR}
+  cp -r ${SRC_DIR}/plasma/desktoptheme/${name}                                         ${PLASMA_DIR}
+  cp -r ${SRC_DIR}/plasma/look-and-feel/com.github.vinceliuice.${name}${color}${theme} ${LOOKFEEL_DIR}
 }
 
 while [[ $# -gt 0 ]]; do
@@ -109,10 +104,6 @@ while [[ $# -gt 0 ]]; do
     -n|--name)
       name="${2}"
       shift 2
-      ;;
-    -b|--blur)
-      blur='true'
-      shift 1
       ;;
     -t|--theme)
       shift

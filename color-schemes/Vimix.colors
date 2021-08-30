@@ -22,7 +22,7 @@ IntensityEffect=0
 BackgroundAlternate=239,239,239
 BackgroundNormal=252,252,252
 DecorationFocus=104,104,104
-DecorationHover=220,220,220
+DecorationHover=104,104,104
 ForegroundActive=255,128,224
 ForegroundInactive=153,153,153
 ForegroundLink=66,133,244
@@ -33,8 +33,45 @@ ForegroundPositive=0,110,40
 ForegroundVisited=224,64,251
 
 [Colors:Complementary]
+BackgroundAlternate=245,245,245
+BackgroundNormal=245,245,245
 DecorationFocus=104,104,104
-DecorationHover=90,90,90
+DecorationHover=220,220,220
+ForegroundActive=255,128,224
+ForegroundInactive=153,153,153
+ForegroundLink=66,133,244
+ForegroundNegative=191,3,3
+ForegroundNeutral=176,128,0
+ForegroundNormal=51,51,51
+ForegroundPositive=0,110,40
+ForegroundVisited=224,64,251
+
+[Colors:Header]
+BackgroundAlternate=245,245,245
+BackgroundNormal=245,245,245
+DecorationFocus=104,104,104
+DecorationHover=220,220,220
+ForegroundActive=255,128,224
+ForegroundInactive=153,153,153
+ForegroundLink=66,133,244
+ForegroundNegative=191,3,3
+ForegroundNeutral=176,128,0
+ForegroundNormal=51,51,51
+ForegroundPositive=0,110,40
+ForegroundVisited=224,64,251
+
+[Colors:Header][Inactive]
+BackgroundAlternate=245,245,245
+BackgroundNormal=245,245,245
+DecorationFocus=104,104,104
+DecorationHover=220,220,220
+ForegroundActive=255,128,224,75
+ForegroundInactive=153,153,153
+ForegroundLink=66,133,244
+ForegroundNegative=191,3,3
+ForegroundNeutral=176,128,0
+ForegroundNormal=51,51,51,75
+ForegroundPositive=0,110,40
 ForegroundVisited=224,64,251
 
 [Colors:Selection]
@@ -94,7 +131,7 @@ ForegroundPositive=0,110,40
 ForegroundVisited=224,64,251
 
 [General]
-ColorScheme=Qogir
+ColorScheme=Vimix
 Name=Vimix
 shadeSortColumn=true
 

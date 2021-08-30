@@ -8,7 +8,7 @@ ColorScheme=VimixAmethyst
 Theme=Vimix-Amethyst
 
 [plasmarc][Theme]
-name=Vimix-Amethyst
+name=Vimix
 
 [kwinrc][org.kde.kdecoration2]
 ButtonsOnLeft=

@@ -1,5 +1,5 @@
 [kdeglobals][KDE]
-widgetStyle=kvantum
+widgetStyle=kvantum-dark
 
 [kdeglobals][General]
 ColorScheme=VimixDarkRuby
@@ -8,7 +8,7 @@ ColorScheme=VimixDarkRuby
 Theme=Vimix-Ruby
 
 [plasmarc][Theme]
-name=Vimix-Ruby
+name=Vimix
 
 [kwinrc][org.kde.kdecoration2]
 ButtonsOnLeft=
