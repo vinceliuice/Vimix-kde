@@ -13,10 +13,10 @@ X-KDE-PluginInfo-EnabledByDefault=true
 X-Plasma-API=5.0
 
 [Wallpaper]
-defaultWallpaperTheme=Vimix
+defaultWallpaperTheme=Vimix-night
 defaultFileSuffix=.png
 defaultWidth=3840
-defaultHeight=2160
+defaultHeight=3840
 
 [ContrastEffect]
 enabled=true

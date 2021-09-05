@@ -4,25 +4,19 @@ SRC_DIR=$(cd $(dirname $0) && pwd)
 ROOT_UID=0
 
 # Destination directory
-if [ "$UID" -eq "$ROOT_UID" ]; then
-  AURORAE_DIR="/usr/share/aurorae/themes"
-  SCHEMES_DIR="/usr/share/color-schemes"
-  PLASMA_DIR="/usr/share/plasma/desktoptheme"
-  LOOKFEEL_DIR="/usr/share/plasma/look-and-feel"
-  KVANTUM_DIR="/usr/share/Kvantum"
-else
   AURORAE_DIR="$HOME/.local/share/aurorae/themes"
   SCHEMES_DIR="$HOME/.local/share/color-schemes"
   PLASMA_DIR="$HOME/.local/share/plasma/desktoptheme"
   LOOKFEEL_DIR="$HOME/.local/share/plasma/look-and-feel"
   KVANTUM_DIR="$HOME/.config/Kvantum"
-fi
+  WALLPAPER_DIR="$HOME/.local/share/wallpapers"
 
 [[ ! -d ${AURORAE_DIR} ]] && mkdir -p ${AURORAE_DIR}
 [[ ! -d ${SCHEMES_DIR} ]] && mkdir -p ${SCHEMES_DIR}
 [[ ! -d ${PLASMA_DIR} ]] && mkdir -p ${PLASMA_DIR}
 [[ ! -d ${LOOKFEEL_DIR} ]] && mkdir -p ${LOOKFEEL_DIR}
 [[ ! -d ${KVANTUM_DIR} ]] && mkdir -p ${KVANTUM_DIR}
+[[ ! -d ${WALLPAPER_DIR} ]] && mkdir -p ${WALLPAPER_DIR}
 
 THEME_NAME=Vimix
 COLOR_VARIANTS=('' '-Light' '-Dark')
@@ -105,6 +99,9 @@ install() {
     mv ${KVANTUM_DIR}/VimixAmethyst/VimixRubyDark.svg                                   ${KVANTUM_DIR}/VimixAmethyst/VimixAmethystDark.svg
     sed -i "s/#f0544c/#ab47bc/g"                                                        ${KVANTUM_DIR}/VimixAmethyst/*
   fi
+
+  rm -rf                                                                                ${WALLPAPER_DIR}/Vimix*
+  cp -rf ${SRC_DIR}/wallpaper/Vimix*                                                    ${WALLPAPER_DIR}
 
   cp -rf ${SRC_DIR}/plasma/desktoptheme/${name}                                         ${PLASMA_DIR}
   cp -rf ${SRC_DIR}/plasma/look-and-feel/com.github.vinceliuice.${name}${color}${theme} ${LOOKFEEL_DIR}
