@@ -4,7 +4,7 @@
    width="450"
    height="1000"
    version="1"
-   sodipodi:docname="Vimix-Light-Doder.svg"
+   sodipodi:docname="VimixDoder.svg"
    inkscape:version="1.1 (c4e8f9ed74, 2021-05-24)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -42,9 +42,9 @@
      inkscape:snap-smooth-nodes="true"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:zoom="1.7857008"
-     inkscape:cx="262.08199"
-     inkscape:cy="760.20576"
+     inkscape:zoom="7.1428032"
+     inkscape:cx="269.50204"
+     inkscape:cy="970.55733"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -5438,14 +5438,14 @@
      height="30"
      x="270.36963"
      y="956.10095"
-     style="opacity:0.12;fill:#000000;stroke-width:0.447212" />
+     style="opacity:1;fill:#ffffff;stroke-width:0.447212" />
   <rect
      id="common-normal-topleft"
      width="1"
      height="1"
      x="270.36963"
      y="948.60095"
-     style="opacity:0.12;fill:#000000;stroke-width:0.2" />
+     style="opacity:1;fill:#ffffff;stroke-width:0.2" />
   <rect
      id="common-normal-top"
      width="1"
@@ -5453,21 +5453,21 @@
      x="948.60095"
      y="-307.86963"
      transform="rotate(90)"
-     style="opacity:0.12;fill:#000000;stroke-width:0.447213" />
+     style="opacity:1;fill:#ffffff;stroke-width:0.447213" />
   <rect
      id="common-normal-topright"
      width="1"
      height="1"
      x="310.36966"
      y="948.60095"
-     style="opacity:0.12;fill:#000000;stroke-width:0.2" />
+     style="opacity:1;fill:#ffffff;stroke-width:0.2" />
   <rect
      id="common-normal-right"
      width="1"
      height="30"
      x="310.36966"
      y="956.10095"
-     style="opacity:0.12;fill:#000000;stroke-width:0.447212" />
+     style="opacity:1;fill:#ffffff;stroke-width:0.447212" />
   <rect
      id="common-normal-bottomright"
      width="1"
