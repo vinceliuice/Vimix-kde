@@ -11,7 +11,8 @@ toolbar_item_spacing=0
 toolbar_interior_spacing=2
 spread_progressbar=true
 composite=true
-menu_shadow_depth=5
+menu_shadow_depth=13
+spread_menuitems=true
 tooltip_shadow_depth=2
 splitter_width=1
 scroll_width=9
@@ -107,6 +108,23 @@ no_selection_tint=true
 transparent_arrow_button=false
 middle_click_scroll=false
 opaque_colors=false
+
+[BaseWidget]
+interior=true
+indicator.size=12
+frame=true
+frame.top=0
+frame.bottom=0
+frame.left=0
+frame.right=0
+frame.expansion=0
+text.margin=true
+text.margin.top=0
+text.margin.bottom=0
+text.margin.left=0
+text.margin.right=0
+text.bold=false
+text.shadow=0
 
 [PanelButtonCommand]
 frame=true
@@ -217,15 +235,14 @@ frame.right=2
 frame.patternsize=14
 
 [GenericFrame]
-inherits=PanelButtonCommand
+inherits=BaseWidget
 frame=true
 interior=false
 frame.element=common
-interior.element=common
-frame.top=3
-frame.bottom=3
-frame.left=3
-frame.right=3
+frame.top=0
+frame.bottom=1
+frame.left=0
+frame.right=0
 
 [LineEdit]
 inherits=PanelButtonCommand
@@ -325,7 +342,7 @@ text.toggle.color=#444444
 frame.left=0
 frame.right=0
 frame.top=0
-frame.bottom=4
+frame.bottom=1
 frame.expansion=0
 
 [Slider]
@@ -383,7 +400,9 @@ min_height=+0.3font
 frame.expansion=0
 
 [Splitter]
-indicator.size=48
+interior.element=splitter
+frame=false
+indicator.size=0
 
 [Scrollbar]
 inherits=PanelButtonCommand
@@ -406,6 +425,19 @@ inherits=PanelButtonCommand
 interior=false
 frame=false
 
+[Menu]
+inherits=PanelButtonCommand
+frame.top=3
+frame.bottom=3
+frame.left=3
+frame.right=3
+frame.element=menu
+interior.element=menu
+text.normal.color=#444444
+text.shadow=false
+frame.expansion=0
+text.bold=false
+
 [MenuItem]
 inherits=PanelButtonCommand
 frame=true
@@ -414,14 +446,14 @@ interior.element=menuitem
 indicator.element=menuitem
 text.normal.color=#444444
 text.focus.color=#ffffff
-text.margin.top=3
-text.margin.bottom=3
-text.margin.left=5
-text.margin.right=5
+text.margin.top=0
+text.margin.bottom=0
+text.margin.left=6
+text.margin.right=6
 frame.top=0
 frame.bottom=0
-frame.left=0
-frame.right=0
+frame.left=6
+frame.right=6
 text.bold=false
 frame.expansion=0
 
@@ -499,19 +531,6 @@ text.normal.color=#565656
 text.focus.color=#444444
 text.press.color=#444444
 text.toggle.color=#444444
-
-[Menu]
-inherits=PanelButtonCommand
-frame.top=1
-frame.bottom=1
-frame.left=1
-frame.right=1
-frame.element=menu
-interior.element=menu
-text.normal.color=#444444
-text.shadow=false
-frame.expansion=0
-text.bold=false
 
 [GroupBox]
 inherits=GenericFrame
