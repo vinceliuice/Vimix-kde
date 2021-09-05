@@ -71,24 +71,43 @@ install() {
   local PLASMA_THEME="${PLASMA_DIR}/${name}"
   local LOOKFEEL_THEME="${LOOKFEEL_DIR}/com.github.vinceliuice.${name}${color}${theme}"
   local SCHEMES_THEME="${SCHEMES_DIR}/${name}${a_color}${a_theme}.colors"
-  local KVANTUM_THEME="${KVANTUM_DIR}/${name}${color}${theme}"
 
   [[ -d ${AURORAE_THEME} ]] && rm -rf ${AURORAE_THEME}
   [[ -d ${PLASMA_THEME} ]] && rm -rf ${PLASMA_THEME}
   [[ -d ${LOOKFEEL_THEME} ]] && rm -rf ${LOOKFEEL_THEME}
   [[ -d ${SCHEMES_THEME} ]] && rm -rf ${SCHEMES_THEME}
-  [[ -d ${KVANTUM_THEME} ]] && rm -rf ${KVANTUM_THEME}
 
   if [[ ${color} != '-Light' ]]; then
-    cp -r ${SRC_DIR}/aurorae/${name}${theme}                                           ${AURORAE_DIR}
+    cp -rf ${SRC_DIR}/aurorae/${name}${theme}                                           ${AURORAE_DIR}
   else
-    cp -r ${SRC_DIR}/aurorae/${name}-Light                                             ${AURORAE_DIR}
+    cp -rf ${SRC_DIR}/aurorae/${name}-Light                                             ${AURORAE_DIR}
   fi
 
-  cp -r ${SRC_DIR}/color-schemes/${name}${a_color}${a_theme}.colors                    ${SCHEMES_DIR}
-  cp -r ${SRC_DIR}/Kvantum/${name}${color}${theme}                                     ${KVANTUM_DIR}
-  cp -r ${SRC_DIR}/plasma/desktoptheme/${name}                                         ${PLASMA_DIR}
-  cp -r ${SRC_DIR}/plasma/look-and-feel/com.github.vinceliuice.${name}${color}${theme} ${LOOKFEEL_DIR}
+  cp -rf ${SRC_DIR}/color-schemes/${name}${a_color}${a_theme}.colors                    ${SCHEMES_DIR}
+  cp -rf ${SRC_DIR}/Kvantum/*                                                           ${KVANTUM_DIR}
+
+  if [[ ${theme} == '-Beryl' ]]; then
+    rm -rf                                                                              ${KVANTUM_DIR}/VimixBeryl
+    cp -rf ${SRC_DIR}/Kvantum/VimixDoder                                                ${KVANTUM_DIR}/VimixBeryl
+    mv ${KVANTUM_DIR}/VimixBeryl/VimixDoder.kvconfig                                    ${KVANTUM_DIR}/VimixBeryl/VimixBeryl.kvconfig
+    mv ${KVANTUM_DIR}/VimixBeryl/VimixDoderDark.kvconfig                                ${KVANTUM_DIR}/VimixBeryl/VimixBerylDark.kvconfig
+    mv ${KVANTUM_DIR}/VimixBeryl/VimixDoder.svg                                         ${KVANTUM_DIR}/VimixBeryl/VimixBeryl.svg
+    mv ${KVANTUM_DIR}/VimixBeryl/VimixDoderDark.svg                                     ${KVANTUM_DIR}/VimixBeryl/VimixBerylDark.svg
+    sed -i "s/#4285f4/#2eb398/g"                                                        ${KVANTUM_DIR}/VimixBeryl/*
+  fi
+
+  if [[ ${theme} == '-Amethyst' ]]; then
+    rm -rf                                                                              ${KVANTUM_DIR}/VimixAmethyst
+    cp -rf ${SRC_DIR}/Kvantum/VimixRuby                                                 ${KVANTUM_DIR}/VimixAmethyst
+    mv ${KVANTUM_DIR}/VimixAmethyst/VimixRuby.kvconfig                                  ${KVANTUM_DIR}/VimixAmethyst/VimixAmethyst.kvconfig
+    mv ${KVANTUM_DIR}/VimixAmethyst/VimixRubyDark.kvconfig                              ${KVANTUM_DIR}/VimixAmethyst/VimixAmethystDark.kvconfig
+    mv ${KVANTUM_DIR}/VimixAmethyst/VimixRuby.svg                                       ${KVANTUM_DIR}/VimixAmethyst/VimixAmethyst.svg
+    mv ${KVANTUM_DIR}/VimixAmethyst/VimixRubyDark.svg                                   ${KVANTUM_DIR}/VimixAmethyst/VimixAmethystDark.svg
+    sed -i "s/#f0544c/#ab47bc/g"                                                        ${KVANTUM_DIR}/VimixAmethyst/*
+  fi
+
+  cp -rf ${SRC_DIR}/plasma/desktoptheme/${name}                                         ${PLASMA_DIR}
+  cp -rf ${SRC_DIR}/plasma/look-and-feel/com.github.vinceliuice.${name}${color}${theme} ${LOOKFEEL_DIR}
 }
 
 while [[ $# -gt 0 ]]; do
