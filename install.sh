@@ -62,7 +62,7 @@ install() {
   fi
 
   local AURORAE_THEME="${AURORAE_DIR}/${name}${color}${theme}"
-  local PLASMA_THEME="${PLASMA_DIR}/${name}"
+  local PLASMA_THEME="${PLASMA_DIR}/${name}${color}"
   local LOOKFEEL_THEME="${LOOKFEEL_DIR}/com.github.vinceliuice.${name}${color}${theme}"
   local SCHEMES_THEME="${SCHEMES_DIR}/${name}${a_color}${a_theme}.colors"
 
@@ -103,7 +103,11 @@ install() {
   rm -rf                                                                                ${WALLPAPER_DIR}/Vimix*
   cp -rf ${SRC_DIR}/wallpaper/Vimix*                                                    ${WALLPAPER_DIR}
 
-  cp -rf ${SRC_DIR}/plasma/desktoptheme/${name}                                         ${PLASMA_DIR}
+  cp -rf ${SRC_DIR}/plasma/desktoptheme/${name}${color}                                 ${PLASMA_DIR}
+  if [[ ${color} != '' ]]; then
+    cp -rf ${SRC_DIR}/plasma/desktoptheme/${name}/*                                     ${PLASMA_DIR}/${name}${color}
+    sed -i "s/Name=Vimix/Name=Vimix${color}/g"                                          ${PLASMA_DIR}/${name}${color}/metadata.desktop
+  fi
   cp -rf ${SRC_DIR}/plasma/look-and-feel/com.github.vinceliuice.${name}${color}${theme} ${LOOKFEEL_DIR}
 }
 

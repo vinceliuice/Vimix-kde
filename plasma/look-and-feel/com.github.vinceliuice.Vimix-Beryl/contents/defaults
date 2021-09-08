@@ -8,7 +8,7 @@ ColorScheme=VimixBeryl
 Theme=Vimix-Beryl
 
 [plasmarc][Theme]
-name=Vimix
+name=Vimix-Dark
 
 [kwinrc][org.kde.kdecoration2]
 ButtonsOnLeft=
@@ -17,4 +17,4 @@ library=org.kde.kwin.aurorae
 theme=__aurorae__svg__Vimix-Beryl
 
 [kcminputrc][Mouse]
-cursorTheme=breeze_cursors
+cursorTheme=Vimix-Beryl
