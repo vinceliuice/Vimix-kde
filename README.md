@@ -1,6 +1,6 @@
 ## Vimix KDE Theme
 
-Vimix kde is a flat Design theme for KDE Plasma desktop.
+Vimix KDE is a flat Design theme for KDE Plasma desktop.
 
 This theme is based on :
 Alexey Varfolomeev - https://github.com/PapirusDevelopmentTeam/materia-kde
@@ -27,19 +27,6 @@ In this repository you'll find:
 
 - Install [Vimix icon theme](https://github.com/vinceliuice/vimix-icon-theme) for a more consistent and beautiful experience.
 
-## Donate
-
-If you like my project, you can donate at:
-
-<span class="paypal"><a href="https://www.paypal.me/vinceliuice" title="Donate to this project using Paypal"><img src="https://www.paypalobjects.com/webstatic/mktg/Logo/pp-logo-100px.png" alt="PayPal donate button" /></a></span>
-
 ## License
 
 GNU GPL v3
-
-## preview
-
-![1](https://github.com/vinceliuice/Vimix-kde/blob/master/plasma/look-and-feel/com.github.vinceliuice.Vimix/contents/previews/fullscreenpreview.jpg?raw=true)
-![2](https://github.com/vinceliuice/Vimix-kde/blob/master/plasma/look-and-feel/com.github.vinceliuice.Vimix-Doder/contents/previews/fullscreenpreview.jpg?raw=true)
-![3](https://github.com/vinceliuice/Vimix-kde/blob/master/plasma/look-and-feel/com.github.vinceliuice.Vimix-Beryl/contents/previews/fullscreenpreview.jpg?raw=true)
-![4](https://github.com/vinceliuice/Vimix-kde/blob/master/plasma/look-and-feel/com.github.vinceliuice.Vimix-Ruby/contents/previews/fullscreenpreview.jpg?raw=true)

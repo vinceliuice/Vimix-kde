@@ -106,11 +106,11 @@ install() {
 
   if [[ ${theme} == '-Jade' ]]; then
     rm -rf                                                                              ${KVANTUM_DIR}/VimixJade
-    cp -rf ${SRC_DIR}/Kvantum/VimixRuby                                                 ${KVANTUM_DIR}/VimixJade
-    mv ${KVANTUM_DIR}/VimixJade/VimixRuby.kvconfig                                  ${KVANTUM_DIR}/VimixJade/VimixJade.kvconfig
-    mv ${KVANTUM_DIR}/VimixJade/VimixRubyDark.kvconfig                              ${KVANTUM_DIR}/VimixJade/VimixJadeDark.kvconfig
-    mv ${KVANTUM_DIR}/VimixJade/VimixRuby.svg                                       ${KVANTUM_DIR}/VimixJade/VimixJade.svg
-    mv ${KVANTUM_DIR}/VimixJade/VimixRubyDark.svg                                   ${KVANTUM_DIR}/VimixJade/VimixJadeDark.svg
+    cp -rf ${SRC_DIR}/Kvantum/VimixJade                                                 ${KVANTUM_DIR}/VimixJade
+    mv ${KVANTUM_DIR}/VimixJade/VimixJade.kvconfig                                  ${KVANTUM_DIR}/VimixJade/VimixJade.kvconfig
+    mv ${KVANTUM_DIR}/VimixJade/VimixJadeDark.kvconfig                              ${KVANTUM_DIR}/VimixJade/VimixJadeDark.kvconfig
+    mv ${KVANTUM_DIR}/VimixJade/VimixJade.svg                                       ${KVANTUM_DIR}/VimixJade/VimixJade.svg
+    mv ${KVANTUM_DIR}/VimixJade/VimixJadeDark.svg                                   ${KVANTUM_DIR}/VimixJade/VimixJadeDark.svg
     sed -i "s/#f0544c/#86BE43/g"                                                        ${KVANTUM_DIR}/VimixJade/*
   fi
 
