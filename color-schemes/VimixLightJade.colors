@@ -131,8 +131,8 @@ ForegroundPositive=0,110,40
 ForegroundVisited=224,64,251
 
 [General]
-ColorScheme=VimixLightRuby
-Name=VimixLightRuby
+ColorScheme=VimixLightDark
+Name=VimixLightDark
 shadeSortColumn=true
 
 [KDE]

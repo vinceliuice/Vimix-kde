@@ -5,7 +5,7 @@ widgetStyle=kvantum-dark
 ColorScheme=VimixDarkJade
 
 [kdeglobals][Icons]
-Theme=Vimix-Jade
+Theme=Vimix
 
 [plasmarc][Theme]
 name=Vimix
@@ -14,7 +14,7 @@ name=Vimix
 ButtonsOnLeft=
 ButtonsOnRight=IAX
 library=org.kde.kwin.aurorae
-theme=__aurorae__svg__Vimix-Jade
+theme=__aurorae__svg__Vimix-Dark
 
 [kcminputrc][Mouse]
 cursorTheme=breeze_cursors

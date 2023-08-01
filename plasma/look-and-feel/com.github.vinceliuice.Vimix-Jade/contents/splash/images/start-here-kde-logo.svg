@@ -1,10 +1,9 @@
 <?xml version="1.0"?>
 <svg width="384" height="384" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" version="1.1">
  <metadata id="metadata14">image/svg+xml</metadata>
-
  <g class="layer">
   <title>Layer 1</title>
-  <path d="m170.94,0l-0.94,38.92l0,190.99l60,-9.35l0,-48.84l42.1,60.14l109.22,152.14l2.68,0l0,-384l-213.06,0z" fill="#1aef1a" id="rect4140" stroke-linecap="round" stroke-miterlimit="4" stroke-width="20"/>
+  <path d="m170.94,0l-0.94,38.92l0,190.99l60,-9.35l0,-48.84l42.1,60.14l109.22,152.14l2.68,0l0,-384l-213.06,0z" fill="#88bc44" id="rect4140" stroke-linecap="round" stroke-miterlimit="4" stroke-width="20"/>
   <path d="m220,49l-40,3.98l0,170.25l40,-6.23l0,-72l56,80l47.54,-16l-63.54,-72l64,-72l-48,-16l-56,80l0,-80z" fill="#000000" id="path4140" opacity="0.05"/>
   <path d="m220,48l-40,3.98l0,170.25l40,-6.23l0,-72l56,80l47.54,-16l-63.54,-72l64,-72l-48,-16l-56,80l0,-80z" fill="#000000" id="path4141" opacity="0.05"/>
   <path d="m220,47l-40,3.98l0,170.25l40,-6.23l0,-72l56,80l47.54,-16l-63.54,-72l64,-72l-48,-16l-56,80l0,-80z" fill="#000000" id="path4139" opacity="0.05"/>
