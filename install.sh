@@ -20,14 +20,14 @@ ROOT_UID=0
 
 THEME_NAME=Vimix
 COLOR_VARIANTS=('' '-Light' '-Dark')
-THEME_VARIANTS=('' '-Doder' '-Beryl' '-Ruby' '-Amethyst')
+THEME_VARIANTS=('' '-Doder' '-Beryl' '-Ruby' '-Amethyst' '-Jade')
 
 usage() {
   printf "%s\n" "Usage: $0 [OPTIONS...]"
   printf "\n%s\n" "OPTIONS:"
   printf "  %-25s%s\n" "-d, --dest DIR" "Specify theme destination directory (Default: ${DEST_DIR})"
   printf "  %-25s%s\n" "-n, --name NAME" "Specify theme name (Default: ${THEME_NAME})"
-  printf "  %-25s%s\n" "-t, --theme VARIANTS" "Specify hue theme variant(s) [standard|doder|beryl|ruby|amethyst] (Default: All variants)"
+  printf "  %-25s%s\n" "-t, --theme VARIANTS" "Specify hue theme variant(s) [standard|doder|beryl|ruby|amethyst|jade] (Default: All variants)"
   printf "  %-25s%s\n" "-b, --blur" "Specify blur theme variants"
   printf "  %-25s%s\n" "-h, --help" "Show this help"
 }
@@ -59,6 +59,10 @@ install() {
 
   if [[ ${theme} == '-Amethyst' ]]; then
     local a_theme='Amethyst'
+  fi
+
+  if [[ ${theme} == '-Jade' ]]; then
+    local a_theme='Jade'
   fi
 
   local AURORAE_THEME="${AURORAE_DIR}/${name}${color}${theme}"
@@ -98,6 +102,16 @@ install() {
     mv ${KVANTUM_DIR}/VimixAmethyst/VimixRuby.svg                                       ${KVANTUM_DIR}/VimixAmethyst/VimixAmethyst.svg
     mv ${KVANTUM_DIR}/VimixAmethyst/VimixRubyDark.svg                                   ${KVANTUM_DIR}/VimixAmethyst/VimixAmethystDark.svg
     sed -i "s/#f0544c/#ab47bc/g"                                                        ${KVANTUM_DIR}/VimixAmethyst/*
+  fi
+
+  if [[ ${theme} == '-Jade' ]]; then
+    rm -rf                                                                              ${KVANTUM_DIR}/VimixJade
+    cp -rf ${SRC_DIR}/Kvantum/VimixRuby                                                 ${KVANTUM_DIR}/VimixJade
+    mv ${KVANTUM_DIR}/VimixJade/VimixRuby.kvconfig                                  ${KVANTUM_DIR}/VimixJade/VimixJade.kvconfig
+    mv ${KVANTUM_DIR}/VimixJade/VimixRubyDark.kvconfig                              ${KVANTUM_DIR}/VimixJade/VimixJadeDark.kvconfig
+    mv ${KVANTUM_DIR}/VimixJade/VimixRuby.svg                                       ${KVANTUM_DIR}/VimixJade/VimixJade.svg
+    mv ${KVANTUM_DIR}/VimixJade/VimixRubyDark.svg                                   ${KVANTUM_DIR}/VimixJade/VimixJadeDark.svg
+    sed -i "s/#f0544c/#86BE43/g"                                                        ${KVANTUM_DIR}/VimixJade/*
   fi
 
   rm -rf                                                                                ${WALLPAPER_DIR}/Vimix*
@@ -148,6 +162,10 @@ while [[ $# -gt 0 ]]; do
             ;;
           amethyst)
             themes+=("${THEME_VARIANTS[4]}")
+            shift 1
+            ;;
+          jade)
+            themes+=("${THEME_VARIANTS[5]}")
             shift 1
             ;;
           -*|--*)
