@@ -107,6 +107,7 @@ install() {
   if [[ ${color} != '' ]]; then
     cp -rf ${SRC_DIR}/plasma/desktoptheme/${name}/*                                     ${PLASMA_DIR}/${name}${color}
     sed -i "s/Name=Vimix/Name=Vimix${color}/g"                                          ${PLASMA_DIR}/${name}${color}/metadata.desktop
+    sed -i "s/Vimix/Vimix${color}/g"                                                    ${PLASMA_DIR}/${name}${color}/metadata.json
   fi
   cp -rf ${SRC_DIR}/plasma/look-and-feel/com.github.vinceliuice.${name}${color}${theme} ${LOOKFEEL_DIR}
 }

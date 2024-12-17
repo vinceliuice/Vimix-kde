@@ -5,7 +5,7 @@ widgetStyle=kvantum-dark
 ColorScheme=VimixDarkRuby
 
 [kdeglobals][Icons]
-Theme=Vimix-Ruby
+Theme=Vimix-ruby-dark
 
 [plasmarc][Theme]
 name=Vimix
